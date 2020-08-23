@@ -1,0 +1,35 @@
+{
+  "name": "karala-api",
+  "version": "1.0.0",
+  "description": "NİBGAT® | Karala uygulaması api projesi.",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./index.js",
+    "build": "babel source -d dist"
+  },
+  "author": "nibgatcaycore",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-latest": "6.24.1",
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "apollo-server": "2.16.1",
+    "apollo-server-express": "2.16.1",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-graphql": "0.11.0",
+    "graphql": "15.3.0",
+    "graphql-subscriptions": "1.1.0",
+    "graphql-tag": "2.11.0",
+    "graphql-tools": "6.0.18",
+    "rethinkdbdash": "2.3.31",
+    "subscriptions-transport-ws": "0.9.18",
+    "type-valid": "1.0.17",
+    "validator": "13.1.1"
+  }
+}
